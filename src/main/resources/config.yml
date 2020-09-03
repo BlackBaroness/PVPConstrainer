@@ -1,0 +1,49 @@
+#      Бой                     Инвентари             Управление
+# constrain.sword          constrain.anvil         constrain.admin
+# constrain.bow            constrain.enchant
+#                          constrain.brewery
+#
+#
+# В "enabled" можно писать только true или false
+# В дефис после message можно писать сообщения с цветом, например:
+#        - '&cSapphireLife - мой любимый сервер!'
+#
+# Кроме того, вы можете вставить в сообщение тэг "{nick}", который вернёт никнейм игрока.
+#
+
+block_anvil:
+  enabled: true
+  message:
+    - 'Наковальня для кузнецов'
+
+block_enchant:
+  enabled: true
+  message:
+    - 'Чаровальня для магов'
+
+block_brewery:
+  enabled: true
+  message:
+    - '&a{nick}, зельеварка для зельеваров. А ты не зельевар'
+
+block_sword:
+  enabled: true
+  message:
+    - 'Неправильный удар, попробуй ещё'
+
+block_bow:
+  enabled: true
+  message:
+    - 'Кто же так стреляет?'
+
+# поле для ввода id блоков и мечей. они могут меняться в разных версиях, поэтому проверьте это поле.
+swords:
+  - WOOD_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLD_SWORD
+  - DIAMOND_SWORD
+
+enchant: ENCHANTMENT_TABLE
+anvil: ANVIL
+brewing: BREWING_STAND

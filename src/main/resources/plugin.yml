@@ -1,0 +1,9 @@
+name: PVPConstrainer
+version: ${project.version}
+main: pvpconstrain.pvpconstrain.Core
+authors: [Black_Baroness]
+description: Этот плагин позволяет ограничивать ПВП между игроками.
+website: sapphirelife.ru
+commands:
+  pvpc:
+    usage: /pvpc
